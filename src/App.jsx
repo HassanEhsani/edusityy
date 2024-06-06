@@ -18,6 +18,7 @@ function App() {
         <About/>
         <Title subTitle='Gallery' title='Campus Photos' />
         <Campus/>
+        <Title subTitle='TESTIMONIALS' title='What Students Says' />
       </div>
 
     </div>
