@@ -13,3 +13,7 @@
 .program{
     flex-basis: 31%;
 }
+.caption{
+    border-radius: 10px;
+    position: absolute;
+}
