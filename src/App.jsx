@@ -8,13 +8,13 @@ import Title from './Components/Title/Title'
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
+      <Navbar />
+      <Hero />
       <div className="container">
-        <Title/>
-        <Programs/>
+        <Title subTitle='our PROGRAM' title='What We Offer' />
+        <Programs />
       </div>
-      
+
     </div>
   )
 }
