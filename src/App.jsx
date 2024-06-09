@@ -21,6 +21,7 @@ function App() {
         <Campus/>
         <Title subTitle='TESTIMONIALS' title='What Students Says' />
         <Testimonials/>
+        <Title subTitle='Contact Us' title='Get in Touch' />
       </div>
 
     </div>
