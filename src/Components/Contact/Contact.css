@@ -25,3 +25,8 @@
     max-width: 450px;
     list-style: 0.3;
 }
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
