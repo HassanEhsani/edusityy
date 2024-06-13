@@ -18,7 +18,16 @@ const Contact = () => {
                     <li><img src={location_icon} alt="" />Russain Sant Petersburg</li>
                 </ul>
             </div>
-            <div className="contact-col"></div>
+            <div className="contact-col">
+                <form>
+                    <label>Your name</label>
+                    <input type="text" name='name' placeholder='Enter Your Name: ' required />
+                    <label>Phone Number</label>
+                    <input type="text" name='phone' placeholder='Enter your mobile number: ' required />
+                    <label>Write your message here</label>
+                    <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
+                </form>
+            </div>
         </div>
     )
 }
